@@ -49,8 +49,8 @@ model=LinearRegression()
 model.fit(X_train_scaled,Y_train)
 #prediction
 Y_pred=model.predict(X_test_scaled)
-print("Name:Rubika")
-print("Reg. No:212225040348")
+print("Name:KOPIGA N")
+print("Reg. No:212225220053")
 print("MODEL COEFFICIENTS:")
 for feature,coef in zip(X.columns,model.coef_):
     print(f"{feature:>12}: {coef:>10}")
